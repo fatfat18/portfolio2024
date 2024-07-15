@@ -8,18 +8,16 @@ const App = () => {
   return (
     <Router>
       <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/resume">Contact</Link>
-            </li>
-          </ul>
+        <nav className="flex justify-center items-center gap-2 w-screen font-bold">
+          <div className="bg-zinc-100 hover:bg-zinc-50 p-4 rounded-md cursor-pointer">
+            <Link to="/">Home</Link>
+          </div>
+          <div className="bg-zinc-100 hover:bg-zinc-50 p-4 rounded-md cursor-pointer">
+            <Link to="/about">About</Link>
+          </div>
+          <div className="bg-zinc-100 hover:bg-zinc-50 p-4 rounded-md cursor-pointer">
+            <Link to="/resume">Resume</Link>
+          </div>
         </nav>
 
         <Routes>
