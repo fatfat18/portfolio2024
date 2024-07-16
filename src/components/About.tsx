@@ -1,7 +1,9 @@
-import React from "react";
+import { useEffect } from "react";
 
 const About = () => {
-  return <h2>About ni sya</h2>;
+  useEffect(() => {}, []);
+
+  return <div className="h-full">MAO NI AKONG ABOUT</div>;
 };
 
 export default About;

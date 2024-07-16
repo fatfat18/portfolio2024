@@ -1,7 +1,5 @@
-import React from "react";
-
 const Resume = () => {
-  return <h2>Resume ni sya</h2>;
+  return <div className="h-full">MAO NI AKONG RESUME</div>;
 };
 
 export default Resume;
