@@ -25,7 +25,7 @@ const App = () => {
   return (
     <Router>
       <div className="font-outfit bg-zinc-900 min-h-screen flex justify-center items-center p-8 gap-4">
-        <div className="bg-zinc-800 min-h-screen rounded-xl w-1/4 flex flex-col items-center " data-aos="fade-left" data-aos-duration="500" data-aos-delay="500">
+        <div className="bg-zinc-800 min-h-screen  rounded-xl w-1/4 flex flex-col items-center " data-aos="fade-left" data-aos-duration="500" data-aos-delay="500">
           <div className="bg-zinc-700 rounded-2xl  w-max h-max mt-10 p-6">
             <img src="src/assets/profile.png" className=" h-40 w-40 animate-pulse" />
           </div>
@@ -83,8 +83,8 @@ const App = () => {
             </div>
           </div>
         </div>
-        <div className="bg-zinc-800 min-h-screen w-3/4 rounded-xl flex flex-col " data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">
-          <div className="flex justify-between items-center  w-full h-1/6 font-medium ">
+        <div className="bg-zinc-800 relative min-h-screen max-h-screen overflow-y-auto w-3/4 rounded-xl flex flex-col " data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">
+          <div className="flex justify-between  items-center  w-full h-1/6 font-medium ">
             <div
               className=" pl-10 text-white tracking-widest h-full flex items-end justify-end text-2xl"
               data-aos="fade-left"
