@@ -86,7 +86,7 @@ const App = () => {
         <div className="bg-zinc-800 relative min-h-screen max-h-screen overflow-y-auto w-3/4 rounded-xl flex flex-col " data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">
           <div className="flex justify-between  items-center  w-full h-1/6 font-medium ">
             <div
-              className=" pl-10 text-white tracking-widest h-full flex items-end justify-end text-2xl"
+              className=" pl-10 text-white tracking-widest h-full flex items-end justify-end text-2xl font-semibold"
               data-aos="fade-left"
               data-aos-duration="500"
               data-aos-easing="ease-in-out-back"
@@ -117,7 +117,7 @@ const App = () => {
               </Link>
             </div>
           </div>
-          <div className="text-white h-5/6 p-10" data-aos="fade" data-aos-duration="1000">
+          <div className="text-white h-5/6 p-10 pt-5" data-aos="fade" data-aos-duration="1000">
             <Routes>
               <Route path="/" element={<About />} />
               <Route path="/portfolio" element={<Portfolio />} />

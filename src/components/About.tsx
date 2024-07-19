@@ -37,13 +37,10 @@ const About = () => {
         <div className="w-full flex flex-col items-center justify-center gap-4 mt-4">
           <div className="flex justify-center items-center w-full gap-4 h-full">
             {" "}
-            <div className="w-1/2 h-40 flex items-center justify-center bg-zinc-700 border-zinc-600 border rounded-xl">Something</div>
-            <div className="w-1/2 h-40 flex items-center justify-center bg-zinc-700 border-zinc-600 border rounded-xl">Something</div>
-          </div>
-          <div className="flex justify-center items-center w-full gap-4 h-full">
-            {" "}
-            <div className="w-1/2 h-40 flex items-center justify-center bg-zinc-700 border-zinc-600 border rounded-xl">Something</div>
-            <div className="w-1/2 h-40 flex items-center justify-center bg-zinc-700 border-zinc-600 border rounded-xl">Something</div>
+            <div className="w-1/4 h-60 flex items-center justify-center bg-zinc-700  border-zinc-600 border rounded-xl">Something</div>
+            <div className="w-1/4 h-60 flex items-center justify-center bg-zinc-700  border-zinc-600 border rounded-xl">Something</div>
+            <div className="w-1/4 h-60 flex items-center justify-center bg-zinc-700  border-zinc-600 border rounded-xl">Something</div>
+            <div className="w-1/4 h-60 flex items-center justify-center bg-zinc-700  border-zinc-600 border rounded-xl">Something</div>
           </div>
         </div>
       </div>
