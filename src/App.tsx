@@ -10,17 +10,23 @@ import { CiCalendarDate } from "react-icons/ci";
 import { CiLocationOn } from "react-icons/ci";
 
 const App = () => {
-  const [route, setRoute] = useState("About");
+  const [route, setRoute] = useState<string>("About");
 
   const handleRoute = (name: string) => {
     setRoute(name);
     localStorage.setItem("route", name);
+    console.log(route);
+    console.log(localStorage.getItem("route"));
   };
 
   useEffect(() => {
-    let initialRoute = localStorage.getItem("route") ?? "";
+    let initialRoute = localStorage.getItem("route") ?? "About";
     setRoute(initialRoute);
   }, []);
+
+  useEffect(() => {
+    console.log(route);
+  }, [route]);
 
   return (
     <Router>
@@ -55,7 +61,7 @@ const App = () => {
                 {" "}
                 <IoMailOutline size={30} />
               </div>
-              <div className="w-3/4 flex items-center justify-start"> Something</div>
+              <div className="w-3/4 flex items-center justify-start"> patrickcd452@gmail.com</div>
             </div>
 
             <div className="rounded-xl  flex items-center justify-center w-full bg-zinc-700 p-6 " data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1050" data-aos-easing="ease-in-out-back">
@@ -63,7 +69,7 @@ const App = () => {
                 {" "}
                 <CiMobile1 size={30} />
               </div>
-              <div className="w-3/4 flex items-center justify-start"> Something</div>
+              <div className="w-3/4 flex items-center justify-start"> 0935-451-7426</div>
             </div>
 
             <div className="rounded-xl  flex items-center justify-center w-full bg-zinc-700 p-6 " data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1100" data-aos-easing="ease-in-out-back">
@@ -71,7 +77,7 @@ const App = () => {
                 {" "}
                 <CiCalendarDate size={30} />
               </div>
-              <div className="w-3/4 flex items-center justify-start"> Something</div>
+              <div className="w-3/4 flex items-center justify-start"> January 18</div>
             </div>
 
             <div className="rounded-xl  flex items-center justify-center w-full bg-zinc-700 p-6 " data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1150" data-aos-easing="ease-in-out-back">
@@ -79,7 +85,7 @@ const App = () => {
                 {" "}
                 <CiLocationOn size={30} />
               </div>
-              <div className="w-3/4 flex items-center justify-start"> Something</div>
+              <div className="w-3/4 flex items-center justify-start"> Cagayan de Oro, Philippines</div>
             </div>
           </div>
         </div>
@@ -96,22 +102,38 @@ const App = () => {
             </div>
             <div className="flex bg-zinc-700 px-10 py-4 text-white rounded-bl-xl rounded-tr-xl w-max gap-10 " data-aos="fade" data-aos-duration="1000" data-aos-delay="1000">
               <Link to="/" onClick={() => handleRoute("About")}>
-                <div className={`cursor-pointer  px-4 py-2 border-b-2 hover:border-b-2 border-zinc-700 hover:border-white transition duration-300 ${route === "About" ? "border-white " : ""}`}>
+                <div
+                  className={`cursor-pointer  px-4 py-2 border-b-2 hover:border-b-2 hover:border-white transition duration-300 ${
+                    route === "About" ? "border-white" : "border-zinc-700 hover:border-white"
+                  }`}
+                >
                   About
                 </div>
               </Link>
               <Link to="/resume" onClick={() => handleRoute("Resume")}>
-                <div className={`cursor-pointer  px-4 py-2 border-b-2 hover:border-b-2 border-zinc-700 hover:border-white transition duration-300 ${route === "Resume" ? "border-white " : ""}`}>
+                <div
+                  className={`cursor-pointer  px-4 py-2 border-b-2 hover:border-b-2 hover:border-white transition duration-300 ${
+                    route === "Resume" ? "border-white" : "border-zinc-700 hover:border-white"
+                  }`}
+                >
                   Resume
                 </div>
               </Link>
               <Link to="/portfolio" onClick={() => handleRoute("Portfolio")}>
-                <div className={`cursor-pointer  px-4 py-2 border-b-2 hover:border-b-2 border-zinc-700 hover:border-white transition duration-300 ${route === "Portfolio" ? "border-white " : ""}`}>
+                <div
+                  className={`cursor-pointer  px-4 py-2 border-b-2 hover:border-b-2 hover:border-white transition duration-300 ${
+                    route === "Portfolio" ? "border-white" : "border-zinc-700 hover:border-white"
+                  }`}
+                >
                   Portfolio
                 </div>
               </Link>
               <Link to="/contact" onClick={() => handleRoute("Contact")}>
-                <div className={`cursor-pointer  px-4 py-2 border-b-2 hover:border-b-2 border-zinc-700 hover:border-white transition duration-300 ${route === "Contact" ? "border-white " : ""}`}>
+                <div
+                  className={`cursor-pointer  px-4 py-2 border-b-2 hover:border-b-2 hover:border-white transition duration-300 ${
+                    route === "Contact" ? "border-white" : "border-zinc-700 hover:border-white"
+                  }`}
+                >
                   Contact
                 </div>
               </Link>
