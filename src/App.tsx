@@ -9,6 +9,11 @@ import { IoMailOutline } from "react-icons/io5";
 import { CiCalendarDate } from "react-icons/ci";
 import { CiLocationOn } from "react-icons/ci";
 
+import { FaInstagram } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa6";
+
 const App = () => {
   const [route, setRoute] = useState<string>("About");
 
@@ -59,7 +64,8 @@ const App = () => {
             >
               <div className="w-1/4 flex items-center justify-center">
                 {" "}
-                <IoMailOutline size={30} />
+                <IoMailOutline size={30} className="absolute" />
+                <IoMailOutline size={25} className="animate-ping" />
               </div>
               <div className="w-3/4 flex items-center justify-start"> test@email.com</div>
             </div>
@@ -67,7 +73,8 @@ const App = () => {
             <div className="rounded-xl  flex items-center justify-center w-full bg-zinc-700 p-6 " data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1050" data-aos-easing="ease-in-out-back">
               <div className="w-1/4 flex items-center justify-center">
                 {" "}
-                <CiMobile1 size={30} />
+                <CiMobile1 size={30} className="absolute" />
+                <CiMobile1 size={25} className="animate-ping" />
               </div>
               <div className="w-3/4 flex items-center justify-start"> 0000-000-0000</div>
             </div>
@@ -75,7 +82,8 @@ const App = () => {
             <div className="rounded-xl  flex items-center justify-center w-full bg-zinc-700 p-6 " data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1100" data-aos-easing="ease-in-out-back">
               <div className="w-1/4 flex items-center justify-center">
                 {" "}
-                <CiCalendarDate size={30} />
+                <CiCalendarDate size={30} className="absolute" />
+                <CiCalendarDate size={25} className="animate-ping" />
               </div>
               <div className="w-3/4 flex items-center justify-start"> Birthdate</div>
             </div>
@@ -83,9 +91,16 @@ const App = () => {
             <div className="rounded-xl  flex items-center justify-center w-full bg-zinc-700 p-6 " data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1150" data-aos-easing="ease-in-out-back">
               <div className="w-1/4 flex items-center justify-center">
                 {" "}
-                <CiLocationOn size={30} />
+                <CiLocationOn size={30} className="absolute" />
+                <CiLocationOn size={25} className="animate-ping" />
               </div>
               <div className="w-3/4 flex items-center justify-start"> Cagayan de Oro, Philippines</div>
+            </div>
+            <div className="w-full flex items-center justify-center mt-4 gap-4">
+              <FaInstagram size={18} className="cursor-pointer" />
+              <FaFacebookF size={18} className="cursor-pointer" />
+              <FaXTwitter size={18} className="cursor-pointer" />
+              <FaLinkedinIn size={18} className="cursor-pointer" />
             </div>
           </div>
         </div>

@@ -25,7 +25,7 @@ const About = () => {
         <div className="w-full flex flex-col items-center justify-center gap-4 mt-4">
           <div className="flex justify-center items-center w-full gap-4 h-full">
             {" "}
-            <div className="w-1/2 h-60 flex items-center justify-center bg-zinc-700 border-zinc-600 border rounded-xl">
+            <div className="w-1/2 min-h-60 flex items-center justify-center bg-zinc-700 border-zinc-600 border rounded-xl">
               <div className="flex items-start justify-center  flex-col px-10 gap-4">
                 <span className=" flex gap-2 items-center justify-center text-xl font-semibold ">
                   {" "}
@@ -39,7 +39,7 @@ const About = () => {
                 </span>
               </div>
             </div>
-            <div className="w-1/2 h-60 flex items-center justify-center bg-zinc-700 border-zinc-600 border rounded-xl">
+            <div className="w-1/2 min-h-60 flex items-center justify-center bg-zinc-700 border-zinc-600 border rounded-xl">
               <div className="flex items-start justify-center  flex-col px-10 gap-4">
                 <span className=" flex gap-2 items-center justify-center text-xl font-semibold ">
                   {" "}
@@ -55,7 +55,7 @@ const About = () => {
           </div>
           <div className="flex justify-center items-center w-full gap-4 h-full">
             {" "}
-            <div className="w-1/2 h-60 flex items-center justify-center bg-zinc-700 border-zinc-600 border rounded-xl">
+            <div className="w-1/2 min-h-60 flex items-center justify-center bg-zinc-700 border-zinc-600 border rounded-xl">
               <div className="flex items-start justify-center  flex-col px-10 gap-4">
                 <span className=" flex gap-2 items-center justify-center text-xl font-semibold ">
                   {" "}
@@ -68,7 +68,7 @@ const About = () => {
                 </span>
               </div>
             </div>
-            <div className="w-1/2 h-60 flex items-center justify-center bg-zinc-700 border-zinc-600 border rounded-xl">
+            <div className="w-1/2 min-h-60 flex items-center justify-center bg-zinc-700 border-zinc-600 border rounded-xl">
               <div className="flex items-start justify-center  flex-col px-10 gap-4">
                 <span className=" flex gap-2 items-center justify-center text-xl font-semibold ">
                   {" "}
@@ -91,19 +91,19 @@ const About = () => {
         <div className="w-full flex flex-col items-center justify-center gap-4 mt-4">
           <div className="flex justify-center items-center w-full gap-4 h-full">
             {" "}
-            <div className="w-1/4 h-60 flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-xl ">
+            <div className="w-1/4 min-h-60 flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-xl ">
               <img src="/react.svg" className="h-32 w-32 animate-spin-slow " />
               Company
             </div>
-            <div className="w-1/4 h-60 flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-xl ">
+            <div className="w-1/4 min-h-60 flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-xl ">
               <img src="/react.svg" className="h-32 w-32 animate-spin-slow " />
               Company
             </div>
-            <div className="w-1/4 h-60 flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-xl ">
+            <div className="w-1/4 min-h-60 flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-xl ">
               <img src="/react.svg" className="h-32 w-32 animate-spin-slow " />
               Company
             </div>
-            <div className="w-1/4 h-60 flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-xl ">
+            <div className="w-1/4 min-h-60 flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-xl ">
               <img src="/react.svg" className="h-32 w-32 animate-spin-slow " />
               Company
             </div>
