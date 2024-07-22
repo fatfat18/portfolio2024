@@ -33,7 +33,7 @@ const App = () => {
       <div className="font-outfit bg-zinc-900 min-h-screen flex justify-center items-center p-8 gap-4">
         <div className="bg-zinc-800 min-h-screen  rounded-xl w-1/4 flex flex-col items-center " data-aos="fade-left" data-aos-duration="500" data-aos-delay="500">
           <div className="bg-zinc-700 rounded-2xl  w-max h-max mt-10 p-6">
-            <img src="src/assets/profile.png" className=" h-40 w-40 animate-pulse" />
+            <img src="./assets/profile.png" className=" h-40 w-40 animate-pulse" />
           </div>
           <br />
           <div className="w-full text-center  text-white text-2xl tracking-wide " data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="800">

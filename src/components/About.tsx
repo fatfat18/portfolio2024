@@ -2,6 +2,7 @@ import { GoFileCode } from "react-icons/go";
 import { TbTools } from "react-icons/tb";
 import { VscTools } from "react-icons/vsc";
 import { TbDeviceMobileCode } from "react-icons/tb";
+
 const About = () => {
   return (
     <div className="h-full w-full">
@@ -91,19 +92,19 @@ const About = () => {
           <div className="flex justify-center items-center w-full gap-4 h-full">
             {" "}
             <div className="w-1/4 h-60 flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-xl ">
-              <img src="src/assets/react.svg" className="h-32 w-32 animate-spin-slow " />
+              <img src="../assets/react.svg" className="h-32 w-32 animate-spin-slow " />
               Company
             </div>
             <div className="w-1/4 h-60 flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-xl ">
-              <img src="src/assets/react.svg" className="h-32 w-32 animate-spin-slow " />
+              <img src="../assets/react.svg" className="h-32 w-32 animate-spin-slow " />
               Company
             </div>
             <div className="w-1/4 h-60 flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-xl ">
-              <img src="src/assets/react.svg" className="h-32 w-32 animate-spin-slow " />
+              <img src="../assets/react.svg" className="h-32 w-32 animate-spin-slow " />
               Company
             </div>
             <div className="w-1/4 h-60 flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-xl ">
-              <img src="src/assets/react.svg" className="h-32 w-32 animate-spin-slow " />
+              <img src="../assets/react.svg" className="h-32 w-32 animate-spin-slow " />
               Company
             </div>
           </div>
