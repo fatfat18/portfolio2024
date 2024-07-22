@@ -61,7 +61,7 @@ const App = () => {
                 {" "}
                 <IoMailOutline size={30} />
               </div>
-              <div className="w-3/4 flex items-center justify-start"> patrickcd452@gmail.com</div>
+              <div className="w-3/4 flex items-center justify-start"> test@email.com</div>
             </div>
 
             <div className="rounded-xl  flex items-center justify-center w-full bg-zinc-700 p-6 " data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1050" data-aos-easing="ease-in-out-back">
@@ -69,7 +69,7 @@ const App = () => {
                 {" "}
                 <CiMobile1 size={30} />
               </div>
-              <div className="w-3/4 flex items-center justify-start"> 0935-451-7426</div>
+              <div className="w-3/4 flex items-center justify-start"> 0000-000-0000</div>
             </div>
 
             <div className="rounded-xl  flex items-center justify-center w-full bg-zinc-700 p-6 " data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1100" data-aos-easing="ease-in-out-back">
@@ -77,7 +77,7 @@ const App = () => {
                 {" "}
                 <CiCalendarDate size={30} />
               </div>
-              <div className="w-3/4 flex items-center justify-start"> January 18</div>
+              <div className="w-3/4 flex items-center justify-start"> Birthdate</div>
             </div>
 
             <div className="rounded-xl  flex items-center justify-center w-full bg-zinc-700 p-6 " data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1150" data-aos-easing="ease-in-out-back">
