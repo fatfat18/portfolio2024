@@ -5,7 +5,7 @@ import { TbDeviceMobileCode } from "react-icons/tb";
 
 const About = () => {
   return (
-    <div className="h-full w-full">
+    <div className="h-full w-full xl:text-base text-sm text-justify">
       <div className="flex flex-col gap-4">
         {" "}
         <div>
@@ -23,11 +23,11 @@ const About = () => {
         <div className="font-semibold text-2xl">What I'm Doing</div>
 
         <div className="w-full flex flex-col items-center justify-center gap-4 mt-4">
-          <div className="flex justify-center items-center w-full gap-4 h-full">
+          <div className="flex flex-col xl:flex-row justify-center items-center w-full gap-4 h-full">
             {" "}
-            <div className="w-1/2 min-h-60 flex items-center justify-center bg-zinc-700 border-zinc-600 border rounded-xl">
-              <div className="flex items-start justify-center  flex-col px-10 gap-4">
-                <span className=" flex gap-2 items-center justify-center text-xl font-semibold ">
+            <div className="xl:w-1/2 w-full min-h-60 flex items-center justify-center bg-zinc-700 border-zinc-600 border rounded-xl">
+              <div className="flex items-start justify-center  flex-col px-10 py-4 gap-4">
+                <span className=" flex gap-2 items-center justify-center text-start xl:text-xl text-md font-semibold ">
                   {" "}
                   <GoFileCode size="28" /> Web App Development
                 </span>
@@ -39,9 +39,9 @@ const About = () => {
                 </span>
               </div>
             </div>
-            <div className="w-1/2 min-h-60 flex items-center justify-center bg-zinc-700 border-zinc-600 border rounded-xl">
-              <div className="flex items-start justify-center  flex-col px-10 gap-4">
-                <span className=" flex gap-2 items-center justify-center text-xl font-semibold ">
+            <div className="xl:w-1/2 w-full min-h-60 flex items-center justify-center bg-zinc-700 border-zinc-600 border rounded-xl">
+              <div className="flex items-start justify-center  flex-col px-10 py-4  gap-4">
+                <span className=" flex gap-2 items-center justify-center  xl:text-xl text-md font-semibold ">
                   {" "}
                   <TbDeviceMobileCode size="32" /> Mobile App Development
                 </span>
@@ -53,11 +53,11 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="flex justify-center items-center w-full gap-4 h-full">
+          <div className="flex xl:flex-row flex-col justify-center items-center w-full gap-4 h-full">
             {" "}
-            <div className="w-1/2 min-h-60 flex items-center justify-center bg-zinc-700 border-zinc-600 border rounded-xl">
-              <div className="flex items-start justify-center  flex-col px-10 gap-4">
-                <span className=" flex gap-2 items-center justify-center text-xl font-semibold ">
+            <div className="xl:w-1/2 w-full min-h-60 flex items-center justify-center bg-zinc-700 border-zinc-600 border rounded-xl">
+              <div className="flex items-start justify-center  flex-col px-10 py-4 gap-4">
+                <span className=" flex gap-2 items-center justify-center xl:text-xl text-md text-start font-semibold ">
                   {" "}
                   <TbTools size="28" /> Create and Design UI
                 </span>
@@ -68,9 +68,9 @@ const About = () => {
                 </span>
               </div>
             </div>
-            <div className="w-1/2 min-h-60 flex items-center justify-center bg-zinc-700 border-zinc-600 border rounded-xl">
+            <div className="xl:w-1/2 w-full min-h-60 flex items-center justify-center bg-zinc-700 border-zinc-600 border rounded-xl">
               <div className="flex items-start justify-center  flex-col px-10 gap-4">
-                <span className=" flex gap-2 items-center justify-center text-xl font-semibold ">
+                <span className=" flex gap-2 items-center justify-center xl:text-xl text-md text-start font-semibold ">
                   {" "}
                   <VscTools size="28" /> Troubleshoot - Fix - Maintain
                 </span>
@@ -88,27 +88,29 @@ const About = () => {
       <div className="mt-14 flex gap-2 flex-col">
         <div className="font-semibold text-2xl">Clients</div>
 
-        <div className="w-full flex flex-col items-center justify-center gap-4 mt-4">
-          <div className="flex justify-center items-center w-full gap-4 h-full">
+        <div className="w-full flex flex-col items-center justify-center xl:gap-4 gap-2 mt-4">
+          <div className="flex justify-center items-center w-full xl:gap-4 gap-2 h-full">
             {" "}
-            <div className="w-1/4 min-h-60 flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-xl ">
-              <img src="/react.svg" className="h-32 w-32 animate-spin-slow " />
+            <div className="w-1/4 xl:min-h-60 min-h-24 xl:text-base text-xs flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-xl ">
+              <img src="/react.svg" className="xl:h-32 xl:w-32 h-8 w-8 animate-spin-slow " />
               Company
             </div>
-            <div className="w-1/4 min-h-60 flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-xl ">
-              <img src="/react.svg" className="h-32 w-32 animate-spin-slow " />
+            <div className="w-1/4 xl:min-h-60 min-h-24 xl:text-base text-xs flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-xl ">
+              <img src="/react.svg" className="xl:h-32 xl:w-32 h-8 w-8 animate-spin-slow " />
               Company
             </div>
-            <div className="w-1/4 min-h-60 flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-xl ">
-              <img src="/react.svg" className="h-32 w-32 animate-spin-slow " />
+            <div className="w-1/4 xl:min-h-60 min-h-24 xl:text-base text-xs flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-xl ">
+              <img src="/react.svg" className="xl:h-32 xl:w-32 h-8 w-8 animate-spin-slow " />
               Company
             </div>
-            <div className="w-1/4 min-h-60 flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-xl ">
-              <img src="/react.svg" className="h-32 w-32 animate-spin-slow " />
+            <div className="w-1/4 xl:min-h-60 min-h-24 xl:text-base text-xs flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-xl ">
+              <img src="/react.svg" className="xl:h-32 xl:w-32 h-8 w-8 animate-spin-slow " />
               Company
             </div>
           </div>
         </div>
+
+     
       </div>
     </div>
   );
