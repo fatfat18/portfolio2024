@@ -35,7 +35,7 @@ const App = () => {
 
   return (
     <Router>
-      <div className="font-outfit bg-zinc-900 min-h-screen flex xl:flex-row flex-col justify-center items-center w-screen">
+      <div className="font-outfit bg-zinc-900 min-h-screen flex xl:flex-row flex-col justify-center items-center w-screen p-8 gap-8">
         <div className="bg-zinc-800 min-h-screen  rounded-xl xl:w-1/4 w-full  flex flex-col items-center " data-aos="fade-left" data-aos-duration="500" data-aos-delay="500">
           <div className="bg-zinc-700 rounded-2xl  w-max h-max mt-10 p-6">
             <img src="/profile.png" className=" xl:h-40 w-20 xl:w-40 h-20 animate-pulse" />
@@ -67,7 +67,7 @@ const App = () => {
                 <IoMailOutline size={30} className="absolute" />
                 <IoMailOutline size={25} className="animate-ping" />
               </div>
-              <div className="w-3/4 flex items-center justify-start"> test@email.com</div>
+              <div className="w-3/4 flex items-center justify-start"> patrickcd452@gmail.com</div>
             </div>
 
             <div className="rounded-xl  flex items-center justify-center w-full bg-zinc-700 p-6 " data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1050" data-aos-easing="ease-in-out-back">
@@ -76,7 +76,7 @@ const App = () => {
                 <CiMobile1 size={30} className="absolute" />
                 <CiMobile1 size={25} className="animate-ping" />
               </div>
-              <div className="w-3/4 flex items-center justify-start"> 0000-000-0000</div>
+              <div className="w-3/4 flex items-center justify-start"> 0935-451-7426</div>
             </div>
 
             <div className="rounded-xl  flex items-center justify-center w-full bg-zinc-700 p-6 " data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1100" data-aos-easing="ease-in-out-back">
@@ -85,7 +85,7 @@ const App = () => {
                 <CiCalendarDate size={30} className="absolute" />
                 <CiCalendarDate size={25} className="animate-ping" />
               </div>
-              <div className="w-3/4 flex items-center justify-start"> Birthdate</div>
+              <div className="w-3/4 flex items-center justify-start"> January 18</div>
             </div>
 
             <div className="rounded-xl  flex items-center justify-center w-full bg-zinc-700 p-6 " data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1150" data-aos-easing="ease-in-out-back">

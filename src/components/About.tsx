@@ -92,25 +92,23 @@ const About = () => {
           <div className="flex justify-center items-center w-full xl:gap-4 gap-2 h-full">
             {" "}
             <div className="w-1/4 xl:min-h-60 min-h-24 xl:text-base text-xs flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-xl ">
-              <img src="/react.svg" className="xl:h-32 xl:w-32 h-8 w-8 animate-spin-slow " />
-              Company
+              <img src="/ccp-logo.webp" className="xl:h-32 xl:w-32 h-8 w-8 object-contain  " />
+              <div className="text-center text-xs"> Co-op College PH</div>
+            </div>
+            <div className="w-1/4 xl:min-h-60 min-h-24 xl:text-base text-xs flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-xl ">
+              <img src="/logo.jpg" className="xl:h-32 xl:w-32 h-8 w-8 " />
+              <div className="text-center text-xs"> CLIMBS Life and General Insruance Cooperative</div>
             </div>
             <div className="w-1/4 xl:min-h-60 min-h-24 xl:text-base text-xs flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-xl ">
               <img src="/react.svg" className="xl:h-32 xl:w-32 h-8 w-8 animate-spin-slow " />
-              Company
+              <div className="text-center text-xs"> NDA</div>
             </div>
             <div className="w-1/4 xl:min-h-60 min-h-24 xl:text-base text-xs flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-xl ">
               <img src="/react.svg" className="xl:h-32 xl:w-32 h-8 w-8 animate-spin-slow " />
-              Company
-            </div>
-            <div className="w-1/4 xl:min-h-60 min-h-24 xl:text-base text-xs flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-xl ">
-              <img src="/react.svg" className="xl:h-32 xl:w-32 h-8 w-8 animate-spin-slow " />
-              Company
+              <div className="text-center text-xs"> NDA</div>
             </div>
           </div>
         </div>
-
-     
       </div>
     </div>
   );
