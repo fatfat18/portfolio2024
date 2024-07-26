@@ -88,21 +88,21 @@ const About = () => {
       <div className="mt-14 flex gap-2 flex-col">
         <div className="font-semibold text-2xl">Clients</div>
 
-        <div className="w-full flex  items-center justify-center mt-4  ">
-          <div className="flex  justify-center items-center xl:gap-4 gap-2 h-full xl:w-full flex-wrap ">
-            <div className="xl:w-60 w-32 xl:min-h-60 min-h-24 xl:text-base text-xs flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-xl ">
+        <div className="w-full flex  items-center justify-start mt-4  overflow-auto">
+          <div className="flex  justify-center items-center xl:gap-4 gap-2 h-full xl:w-full w-max xl:p-0 p-2 ">
+            <div className="xl:w-60 w-40 xl:min-h-60 min-h-40 xl:text-base text-xs flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-md ">
               <img src="/ccp-logo.webp" className="xl:h-32 xl:w-32 h-12 w-12 object-contain  " />
               <div className="text-center text-xs"> Co-op College PH</div>
             </div>
-            <div className="xl:w-60 w-32 xl:min-h-60 min-h-24 xl:text-base text-xs flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-xl ">
+            <div className="xl:w-60 w-40 xl:min-h-60 min-h-40 xl:text-base text-xs flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-md ">
               <img src="/logo.jpg" className="xl:h-32 xl:w-32 h-12 w-12 " />
               <div className="text-center text-xs"> CLIMBS </div>
             </div>
-            <div className="xl:w-60 w-32 xl:min-h-60 min-h-24 xl:text-base text-xs flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-xl ">
+            <div className="xl:w-60 w-40 xl:min-h-60 min-h-40 xl:text-base text-xs flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-md ">
               <img src="/react.svg" className="xl:h-32 xl:w-32 h-12 w-12 animate-spin-slow " />
               <div className="text-center text-xs"> NDA</div>
             </div>
-            <div className="xl:w-60 w-32 xl:min-h-60 min-h-24 xl:text-base text-xs flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-xl ">
+            <div className="xl:w-60 w-40 xl:min-h-60 min-h-40 xl:text-base text-xs flex flex-col gap-2 items-center justify-center  bg-zinc-700  border-zinc-600 border rounded-md ">
               <img src="/react.svg" className="xl:h-32 xl:w-32 h-12 w-12 animate-spin-slow " />
               <div className="text-center text-xs"> NDA</div>
             </div>
